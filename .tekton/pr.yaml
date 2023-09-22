@@ -41,4 +41,5 @@ spec:
               image: registry.access.redhat.com/ubi9/ubi-micro
               script: |
                 echo "hello"
+                sleep 300
                 exit 0
